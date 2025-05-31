@@ -13,7 +13,3 @@ This repository is a curated collection of real-world use cases demonstrating ho
 - Excel power users exploring Python
 - Python developers integrating with Excel
 - Educators and learners looking for applied examples
-
----
-
-Would you like help drafting a `README.md` file structure too, or maybe some initial use case ideas to populate the repo?

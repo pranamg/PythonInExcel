@@ -1,30 +1,94 @@
-# Python in Excel Analytics Project
+# Python in Excel Use Cases Documentation
 
-This repository contains templates, documentation, and sample data for advanced analytics using Python directly within Excel. The project is organized for clarity and ease of use, making it easy to extend, collaborate, and share.
+Welcome to the documentation for Python in Excel Analytics! This guide provides detailed examples and templates for leveraging Python's analytical capabilities directly within Excel.
 
-## Folder Structure
+## 🚀 Getting Started with Python in Excel
 
-- `data/` — Excel files and sample datasets
-- `docs/` — Documentation and use case guides (organized by topic)
-- `src/` — Python scripts or modules (add here if needed)
-- `notebooks/` — Jupyter or Excel Python code samples (add here if needed)
-- `.github/` — GitHub workflows, issue templates
-- `.vscode/` — VSCode settings
-- `.gitignore` — Files and folders to ignore in git
-- `requirements.txt` — List of required Python packages
+Before diving into the use cases, ensure your Python environment is properly configured:
 
-## Getting Started
+1. Open Excel and enter this command in a new cell to check available libraries:
+   ```python
+   =PY(
+   import sys
+   import subprocess
+   subprocess.run([sys.executable, "-m", "pip", "list"], capture_output=True, text=True).stdout
+   )
+   ```
+2. Execute with Ctrl+Enter
+3. Save the output to `piplist.txt` for reference
+4. Verify core libraries are installed (pandas, numpy, matplotlib, seaborn, statsmodels)
 
-1. Clone this repository.
-2. Open in VS Code or your preferred editor.
-3. Review the `docs/` folder for use case guides and documentation.
-4. Use the `data/` folder for your Excel files and datasets.
-5. Add your own scripts to `src/` or notebooks to `notebooks/` as needed.
+## 📚 Use Case Categories
 
-## Contributing
+### 01 - Financial Analysis
+- [Portfolio Optimization](./01-Financial%20Analysis_01-Portfolio%20Optimization.md)
+- [Financial Statement Analysis](./01-Financial%20Analysis_02-Financial%20Statement%20Analysis.md)
+- [Investment Analysis](./01-Financial%20Analysis_03-Investment%20Analysis.md)
+- [Risk Analysis with VaR](./01-Financial%20Analysis_04-Risk%20Analysis%20with%20VaR%20(Value%20at%20Risk).md)
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+### 02 - Business Intelligence
+- [Sales Analytics](./02-Business%20Intelligence_01-Sales%20Analytics.md)
+- [Marketing Analysis](./02-Business%20Intelligence_02-Marketing%20Analysis.md)
+- [Customer Analytics](./02-Business%20Intelligence_03-Customer%20Analytics.md)
 
-## License
+### 03 - Data Cleaning & Preparation
+- [Data Quality Assessment](./03-Data%20Cleaning%20%26%20Preparation_01-Data%20Quality%20Assessment.md)
+- [Data Transformation](./03-Data%20Cleaning%20%26%20Preparation_02-Data%20Transformation.md)
+- [Data Integration](./03-Data%20Cleaning%20%26%20Preparation_03-Data%20Integration.md)
+- [Data Reshaping](./03-Data%20Cleaning%20%26%20Preparation_04-Data%20Reshaping.md)
 
-Specify your license here (e.g., MIT, Apache 2.0, etc.).
+### 04 - Statistical Analysis
+- [Descriptive Statistics](./04-Statistical%20Analysis_01-Descriptive%20Statistics.md)
+- [Inferential Statistics](./04-Statistical%20Analysis_02-Inferential%20Statistics.md)
+- [Time Series Analysis](./04-Statistical%20Analysis_03-Time%20Series%20Analysis.md)
+
+### 05 - Predictive Modeling
+- [Regression (Predicting Continuous Values)](./05-Predictive%20Modeling_01-Regression%20(Predicting%20Continuous%20Values).md)
+- [Classification (Predicting Categorical Values)](./05-Predictive%20Modeling_02-Classification%20(Predicting%20Categorical%20Values).md)
+- [Time Series Forecasting](./05-Predictive%20Modeling_03-Time%20Series%20Forecasting.md)
+
+### 06 - Visualization
+- [Basic Plots (Line, Bar, Scatter)](./06-Visualization_01-Basic%20Plots%20(Line,Bar,Scatter).md)
+- [Distribution Plots](./06-Visualization_02-Distribution%20Plots%20(Histogram,%20Box%20Plot,%20KDE).md)
+- [Relationship Plots](./06-Visualization_03-Relationship%20Plots%20(Scatter,%20Pair%20Plot,%20Heatmap).md)
+- [Composition Plots](./06-Visualization_04-Composition%20Plots%20(Pie,%20Stacked%20Bar)..md)
+- [Geospatial Plots](./06-Visualization_05-Geospatial%20Plots..md)
+
+### 07 - Reporting & Automation
+- [Generating Summaries](./07-Reporting%20%26%20Automation_01-Generating%20Summaries.md)
+- [Generating Reports](./07-Reporting%20%26%20Automation_02-Generating%20Reporting.md)
+- [Parameterization](./07-Reporting%20%26%20Automation_03-Parameterization.md)
+- [Conditional Formatting](./07-Reporting%20%26%20Automation_04-Conditional%20Formatting.md)
+- [User-Defined Functions (UDFs)](./07-Reporting%20%26%20Automation_05-User-Defined%20Functions%20(UDFs).md)
+
+## 📋 How to Use These Guides
+
+Each use case document follows a consistent structure:
+1. **Overview** - Problem description and business context
+2. **Prerequisites** - Required Python libraries and Excel setup
+3. **Step-by-Step Guide** - Detailed implementation instructions
+4. **Code Examples** - Ready-to-use Python code snippets
+5. **Tips & Best Practices** - Optimization and troubleshooting advice
+
+## 🔧 Setup Requirements
+
+Core Python libraries required for most use cases:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- statsmodels
+
+Additional libraries may be required for specific use cases. Check the `piplist.txt` output from your environment setup to verify available packages.
+
+## 🤝 Contributing
+
+We welcome contributions! For major changes:
+1. Open an issue first to discuss your proposal
+2. Follow the existing documentation structure
+3. Include clear examples and explanations
+4. Test all code examples in Excel
+
+## 📄 License
+
+This project is licensed under The Unlicense. See https://unlicense.org/ for details.

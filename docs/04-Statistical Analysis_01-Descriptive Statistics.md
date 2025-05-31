@@ -1,8 +1,8 @@
-Okay, let's begin with the next major category: **Statistical Analysis**, starting with **1. Descriptive Statistics**.
+This section begins a new major category: **Statistical Analysis**, starting with **1. Descriptive Statistics**.
 
-Descriptive statistics are used to summarize and describe the main features of a collection of data, providing simple summaries about the sample and measures of the observations. This includes measures of central tendency (mean, median, mode), measures of dispersion (variance, standard deviation, range), and measures of shape (skewness, kurtosis). It also involves understanding the distribution of categorical data.
+Descriptive statistics provide a fundamental framework for understanding data through quantitative summaries and visualizations. This analysis includes calculating measures of central tendency (mean, median, mode), measures of dispersion (variance, standard deviation, range), and measures of shape (skewness, kurtosis), along with analyzing the distribution of categorical variables.
 
-Based on your `piplist.txt`, we have `pandas` (excellent for summary statistics), `numpy` (for numerical operations), `seaborn`, and `matplotlib` (both for visualization of distributions), which are the core tools for descriptive analysis.
+Based on [`piplist.txt`](./README.md) output, we have `pandas` (excellent for summary statistics), `numpy` (for numerical operations), `seaborn`, and `matplotlib` (both for visualization of distributions), which are the core tools for descriptive analysis.
 
 **Step 1: Generate Sample Data for Descriptive Statistics**
 
@@ -216,6 +216,11 @@ output # Output the dictionary
 *   Select "Excel Value" (**Ctrl+Shift+Alt+M**) for the DataFrames ('Descriptive Summary (Numeric)', 'Descriptive Summary (All Columns)', 'Specific Calculated Metrics', 'Department Frequency Counts', 'Performance Rating Frequency Counts') to spill them into your sheet.
 *   For each plot figure object ('Annual_Salary_Distribution_Plot', 'Department_Distribution_Plot'), select "Picture in Cell" > "Create Reference" to see the plots.
 
-This gives you a solid quantitative and visual summary of your dataset's main characteristics.
+These descriptive statistics and visualizations provide a comprehensive overview of the dataset's key characteristics and distributions. The next topic in the series is ["Statistical Analysis - 2. Inferential Statistics"](./04-Statistical%20Analysis_02-Inferential%20Statistics.md), which builds upon these descriptive insights to make predictions and test hypotheses about the broader population.
 
-Would you like to proceed to the next use case: "Statistical Analysis - 2. Inferential Statistics"?
+**Further Analysis:**
+* **Robust Statistics:** Implementing outlier-resistant statistics like median absolute deviation (MAD) and Huber's M-estimators
+* **Distribution Fitting:** Using scipy to fit theoretical distributions and assess goodness-of-fit
+* **Multivariate Analysis:** Calculating and visualizing correlations, covariances, and joint distributions
+* **Bootstrap Statistics:** Implementing resampling methods to estimate sampling distributions and confidence intervals
+* **Non-parametric Descriptives:** Using quartile-based statistics and rank-based measures for non-normal distributions

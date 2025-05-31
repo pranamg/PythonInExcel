@@ -1,8 +1,8 @@
-Okay, let's proceed to **Statistical Analysis - 2. Inferential Statistics**.
+The next topic in the statistical analysis series is **Statistical Analysis - 2. Inferential Statistics**.
 
-Inferential statistics allows us to make inferences and draw conclusions about a larger population based on a sample of data. This often involves hypothesis testing to determine if observed differences or relationships are statistically significant, or estimating population parameters using confidence intervals.
+Inferential statistics extends beyond descriptive analysis by enabling conclusions about larger populations based on sample data. This advanced statistical approach employs hypothesis testing to evaluate the significance of observed differences or relationships, and uses confidence intervals to estimate population parameters.
 
-Based on your `piplist.txt`, you have `pandas`, `numpy`, `scipy` (which includes modules for statistical tests), `statsmodels` (for regression and other models), `seaborn`, and `matplotlib`. This set of libraries is excellent for a wide range of inferential statistical tasks.
+Based on [`piplist.txt`](./README.md) output, you have `pandas`, `numpy`, `scipy` (which includes modules for statistical tests), `statsmodels` (for regression and other models), `seaborn`, and `matplotlib`. This set of libraries is excellent for a wide range of inferential statistical tasks.
 
 **Step 1: Generate Sample Data for Inferential Statistics**
 
@@ -255,6 +255,11 @@ output # Output the dictionary
 *   Select "Excel Value" (**Ctrl+Shift+Alt+M**) for the DataFrames ('Independent T-test Result (Score by Group)', 'Correlation Matrix (Numeric Columns)', 'Linear Regression Summary (Score vs Hours)') to spill them into your sheet.
 *   For each plot figure object ('Test_Score_Box_Plot_by_Group', 'Score_vs_Hours_Scatter_Plot'), select "Picture in Cell" > "Create Reference" to see the plots.
 
-This gives you examples of hypothesis testing (t-test), relationship measurement (correlation), and predictive modeling (regression) using your data.
+These examples demonstrate key inferential statistical techniques including hypothesis testing (t-test), relationship measurement (correlation), and predictive modeling (regression). The next topic in the series is ["Statistical Analysis - 3. Time Series Analysis"](./04-Statistical%20Analysis_03-Time%20Series%20Analysis.md), which focuses on analyzing and interpreting temporal patterns in data.
 
-Would you like to proceed to the next use case: "Statistical Analysis - 3. Time Series Analysis"?
+**Further Analysis:**
+* **Advanced Hypothesis Testing:** Implementing ANOVA, MANOVA, and non-parametric tests like Mann-Whitney U and Kruskal-Wallis
+* **Power Analysis:** Using statsmodels for sample size determination and statistical power calculations
+* **Mixed Effects Models:** Building hierarchical/multilevel models for nested or repeated measures data
+* **Multiple Testing Correction:** Implementing Bonferroni, FDR, and other methods to control familywise error rate
+* **Bayesian Inference:** Using PyMC3 or Stan for Bayesian parameter estimation and hypothesis testing

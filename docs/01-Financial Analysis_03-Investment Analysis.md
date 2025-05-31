@@ -1,8 +1,8 @@
-Okay, let's move on to the next use case: **Financial Analysis - 3. Investment Analysis**.
+**Financial Analysis - 3. Investment Analysis**.
 
 This area focuses on evaluating individual assets or a group of assets. We'll look at returns, risk, correlation, and potentially some simple technical indicators.
 
-Based on your `piplist.txt`, we have `pandas`, `numpy`, `seaborn`, `matplotlib`, `scipy.stats` which are great for these tasks. `pandas_ta` was mentioned in the use case list, but it's **not** present in your provided `piplist.txt`. Therefore, we cannot directly use `pandas_ta`. I will show you how to calculate a simple moving average manually using `pandas` instead, as this is a common technical indicator and achievable with available libraries.
+Based on [`piplist.txt`](./README.md) output, you should have `pandas`, `numpy`, `seaborn`, `matplotlib`, `scipy.stats` which are great for these tasks. `pandas_ta` was mentioned in the use case list, but it's **not** present in your provided `piplist.txt`. Therefore, we cannot directly use `pandas_ta`. I will show you how to calculate a simple moving average manually using `pandas` instead, as this is a common technical indicator and achievable with available libraries.
 
 **Step 1: Generate Sample Investment Price Data**
 
@@ -232,4 +232,33 @@ output # Output the dictionary containing results
 *   Select "Excel Value" (**Ctrl+Shift+Alt+M**) for the DataFrames (like `Daily Returns Head`, `Correlation Matrix`, `MSFT_SMA_Data_Head`).
 *   For the plot figures (like `Returns Distribution Plot`, `Correlation Matrix Plot`, `MSFT_SMA_Plot`), select "Picture in Cell" > "Create Reference".
 
-Would you like to proceed to the next use case: "Financial Analysis - Risk analysis with VaR (Value at Risk) using `scipy.stats`"?
+**Further Analysis:**
+
+Here are some advanced investment analysis techniques you could explore:
+
+1. **Technical Analysis:**
+   - Implement additional technical indicators (RSI, MACD)
+   - Add Bollinger Bands analysis
+   - Create candlestick chart patterns
+
+2. **Statistical Analysis:**
+   - Calculate advanced risk metrics
+   - Implement momentum indicators
+   - Create volatility analysis tools
+
+3. **Performance Analysis:**
+   - Add risk-adjusted return metrics
+   - Implement attribution analysis
+   - Create performance persistence tests
+
+4. **Market Analysis:**
+   - Add sector rotation analysis
+   - Implement market breadth indicators
+   - Create sentiment analysis tools
+
+5. **Portfolio Analysis:**
+   - Calculate factor exposures
+   - Implement style analysis
+   - Create portfolio attribution tools
+
+The next topic in the series is [Financial Analysis - Risk Analysis with VaR (Value at Risk)](./01-Financial%20Analysis_04-Risk%20Analysis%20with%20VaR%20(Value%20at%20Risk).md), which explores how to measure and manage investment risk using statistical techniques.

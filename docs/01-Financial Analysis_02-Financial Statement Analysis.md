@@ -1,8 +1,8 @@
-Okay, let's move on to the next use case: **Financial Analysis - 2. Financial Statement Analysis**.
+The next topic in the financial analysis series is **Financial Analysis - 2. Financial Statement Analysis**.
 
-This area involves examining a company's financial statements (like Income Statement, Balance Sheet) to evaluate its performance, financial health, and future prospects. Common tasks include calculating key ratios, analyzing trends, and benchmarking against others.
+Financial statement analysis is a fundamental technique that examines a company's financial statements (like Income Statement, Balance Sheet) to evaluate its performance, financial health, and future prospects. This analysis typically includes calculating key ratios, analyzing trends, and benchmarking against industry standards.
 
-Based on your `piplist.txt`, we have `pandas` for data manipulation, `numpy` for calculations, `statsmodels` for potential time series analysis (like trend analysis), and `seaborn`/`matplotlib`/`plotly` for visualization. This is well-supported.
+Based on [`piplist.txt`](./README.md) output, you should have `pandas` for data manipulation, `numpy` for calculations, `statsmodels` for potential time series analysis (like trend analysis), and `seaborn`/`matplotlib`/`plotly` for visualization. This is well-supported.
 
 **Step 1: Generate Sample Financial Statement Data**
 
@@ -188,4 +188,33 @@ output # Output the dictionary
 *   Select "Excel Value" (**Ctrl+Shift+Alt+M**) for the `Financial Ratios` DataFrame to spill it into your sheet.
 *   For the `Revenue_NetIncome_Trend_Plot` figure object, select "Picture in Cell" > "Create Reference" to see the plot.
 
-Would you like to proceed to the next use case: "Financial Analysis - Investment Analysis"? Or would you like to explore other aspects of Financial Statement Analysis, like benchmarking or time series forecasting of a specific metric?
+**Further Analysis:**
+
+Here are some advanced financial statement analysis techniques you could explore:
+
+1. **Advanced Ratio Analysis:**
+   - Implement DuPont analysis decomposition
+   - Calculate efficiency ratios and turnover metrics
+   - Add working capital analysis
+
+2. **Comparative Analysis:**
+   - Add industry benchmark comparisons
+   - Implement peer group analytics
+   - Create competitive positioning analysis
+
+3. **Time Series Analysis:**
+   - Add seasonal decomposition of financials
+   - Implement trend analysis with confidence intervals
+   - Create forward-looking projections
+
+4. **Quality of Earnings Analysis:**
+   - Add accrual ratio calculations
+   - Implement earnings quality metrics
+   - Create cash flow analysis tools
+
+5. **Risk Assessment:**
+   - Add Altman Z-score calculations
+   - Implement bankruptcy prediction models
+   - Create credit risk assessment metrics
+
+The next topic in the series is [Financial Analysis - Investment Analysis](./01-Financial%20Analysis_03-Investment%20Analysis.md). Additional aspects of Financial Statement Analysis, such as benchmarking and time series forecasting of specific metrics, can provide deeper insights into company performance.

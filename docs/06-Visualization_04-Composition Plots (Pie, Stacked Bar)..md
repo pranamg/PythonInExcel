@@ -1,10 +1,10 @@
-Okay, let's move on to the next visualization use case: **Visualization - 4. Composition Plots (Pie, Stacked Bar)**.
+**Visualization - 4. Composition Plots (Pie, Stacked Bar)**
 
-Composition plots show how different parts contribute to a whole.
-*   **Pie Charts:** Best for showing the proportion of a single categorical variable when the number of categories is small.
-*   **Stacked Bar Charts:** Useful for comparing the composition of different categories across different groups, or showing how proportions change over time or across groups.
+Composition plots effectively visualize how different parts contribute to a whole. This guide covers two common types:
+*   **Pie Charts:** Ideal for displaying proportions of a single categorical variable with few categories
+*   **Stacked Bar Charts:** Perfect for comparing category compositions across groups or showing proportion changes over time
 
-Your `piplist.txt` includes `pandas` for data preparation and `matplotlib`/`seaborn` for plotting, which are ideal for these tasks.
+Based on [`piplist.txt`](./README.md) output, you should have `pandas` for data preparation and `matplotlib`/`seaborn` for creating the visualizations.
 
 **Step 1: Generate Sample Data for Composition Plots**
 
@@ -250,6 +250,37 @@ output # Output the dictionary
 *   Select "Excel Value" (**Ctrl+Shift+Alt+M**) for the DataFrames ('Market_Share_Data_Aggregated', 'Sales_Composition_Data_Aggregated') to spill them into your sheet.
 *   For each plot figure object ('Market_Share_Pie_Chart', 'Sales_Composition_Stacked_Bar_Chart'), select "Picture in Cell" > "Create Reference" to see the plots spilled into your worksheet.
 
-These plots visually represent the composition of your data, showing how different parts contribute to a whole in simple and grouped scenarios.
+**Further Analysis:**
 
-Would you like to proceed to the next use case: "Visualization - 5. Geospatial Plots"?
+Here are some advanced composition visualization techniques you could apply to this dataset:
+
+1. **Advanced Pie Chart Techniques:**
+   - Create nested/multi-level pie charts (sunburst diagrams)
+   - Implement interactive pie chart segments
+   - Add data-driven text annotations and callouts
+
+2. **Enhanced Stacked Bar Visualizations:**
+   - Create 100% stacked bars for proportion focus
+   - Implement floating bars for showing both positive and negative values
+   - Add small multiples for time series comparison
+
+3. **Alternative Composition Plots:**
+   - Create treemaps for hierarchical part-to-whole relationships
+   - Implement Marimekko/Mosaic plots
+   - Design streamgraphs for temporal composition changes
+
+4. **Interactive Features:**
+   - Add hover tooltips with detailed breakdowns
+   - Implement drill-down capabilities
+   - Create linked views between different composition plots
+
+5. **Advanced Analysis Integration:**
+   - Add statistical annotations
+   - Implement dynamic filtering and aggregation
+   - Create animated transitions between different views
+
+The next topic in the series is [Visualization - Geospatial Plots](./06-Visualization_05-Geospatial%20Plots..md), which explores techniques for visualizing data with geographical components.
+
+These composition plots effectively communicate how different components contribute to a whole, whether for simple proportions or complex grouped scenarios.
+
+The next section covers **Geospatial Plots**, which will help you visualize data with geographical components using maps and spatial visualizations.

@@ -1,8 +1,8 @@
-Got it. Let's move into **Statistical Analysis - 3. Time Series Analysis**.
+The final topic in the statistical analysis series is **Statistical Analysis - 3. Time Series Analysis**.
 
-Time series analysis is about understanding data points collected at successive points in time. Key goals often include identifying patterns, understanding underlying forces (like seasonality or trend), and forecasting future values.
+Time series analysis focuses on interpreting and understanding data points collected over time. This specialized analytical approach enables the identification of patterns, decomposition of underlying forces (such as seasonality and trends), and provides a foundation for forecasting future values.
 
-Your `piplist.txt` confirms you have `pandas` (essential for time series data structures and manipulations), `numpy`, `statsmodels` (which has dedicated time series tools), `seaborn`, and `matplotlib` (both great for visualizing time series). This is a strong setup for time series analysis.
+Based on [`piplist.txt`](./README.md) output, you have `pandas` (essential for time series data structures and manipulations), `numpy`, `statsmodels` (which has dedicated time series tools), `seaborn`, and `matplotlib` (both great for visualizing time series). This is a strong setup for time series analysis.
 
 **Step 1: Generate Sample Time Series Data**
 
@@ -208,6 +208,11 @@ output # Output the dictionary
 *   Select "Excel Value" (**Ctrl+Shift+Alt+M**) for the DataFrames/Series ('Trend Component Head', 'Seasonal Component Head', 'Residual Component Head', 'Rolling 30-Day Mean Head') to spill them into your sheet.
 *   For each plot figure object ('Time_Series_Decomposition_Plot', 'Time_Series_Rolling_Mean_Plot'), select "Picture in Cell" > "Create Reference" to see the plots.
 
-This provides a fundamental analysis of the patterns within your time series data. Forecasting (predicting future values) is another common time series task, achievable with models like ARIMA from `statsmodels`, but is generally more involved.
+This analysis provides fundamental insights into temporal patterns within the data. While this section focuses on decomposition and pattern identification, more advanced time series techniques, such as ARIMA forecasting models, are covered in the next major category: [**Predictive Modeling**](./05-Predictive%20Modeling_01-Regression%20(Predicting%20Continuous%20Values).md). The predictive modeling section builds upon these statistical foundations to develop models for forecasting future values and understanding complex temporal relationships.
 
-Would you like to proceed to the next category: **Predictive Modeling**? Or would you like to explore forecasting or other time series aspects?
+**Further Analysis:**
+* **Advanced Decomposition:** Using STL decomposition for complex seasonality patterns and handling missing values
+* **Change Point Detection:** Implementing statistical tests to identify structural breaks and regime changes
+* **Spectral Analysis:** Using Fourier transforms and periodograms to identify cyclical patterns
+* **Cross-Correlation Analysis:** Analyzing lagged relationships between multiple time series
+* **Wavelet Analysis:** Implementing continuous wavelet transforms for time-frequency decomposition

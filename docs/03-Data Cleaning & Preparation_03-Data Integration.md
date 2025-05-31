@@ -1,8 +1,8 @@
-Okay, let's move on to **Data Cleaning & Preparation - 3. Data Integration**.
+The next topic in the data preparation series is **Data Cleaning & Preparation - 3. Data Integration**.
 
-Data integration is the process of combining data from different sources into a single, unified view. In Python with pandas, this often involves merging DataFrames based on common columns or concatenating them.
+Data integration is a crucial process that combines data from multiple sources into a single, unified view. This section demonstrates how to use Python and pandas to merge DataFrames based on common columns or concatenate them into comprehensive datasets.
 
-Based on your `piplist.txt`, `pandas` is the primary library available and needed for these operations. `numpy` might be used in dummy data generation.
+Based on [`piplist.txt`](./README.md) output, `pandas` is the primary library available and needed for these operations. `numpy` might be used in dummy data generation.
 
 **Step 1: Generate Sample Data from Multiple Sources**
 
@@ -164,6 +164,11 @@ output # Output the dictionary
 *   Click the Python cell, then click the Python icon/button next to the formula bar.
 *   Select "Excel Value" (**Ctrl+Shift+Alt+M**) for the DataFrames within the output dictionary to spill them into your sheet. This will show the first few rows and the dimensions of the integrated data.
 
-The resulting merged DataFrames (`df_inner_merged`, `df_left_merged`) combine the customer information with their order details, ready for further analysis (e.g., calculating total spending per customer, analyzing order frequency based on customer demographics).
+The resulting merged DataFrames (`df_inner_merged`, `df_left_merged`) combine the customer information with their order details, enabling advanced analytics such as calculating total customer spending and analyzing order frequency based on demographics. The next topic in the series is ["Data Cleaning & Preparation - 4. Data Reshaping"](./03-Data%20Cleaning%20&%20Preparation_04-Data%20Reshaping.md), which explores techniques for restructuring data layouts to support different analysis requirements.
 
-Would you like to proceed to the next use case: "Data Cleaning & Preparation - 4. Data Reshaping"?
+**Further Analysis:**
+* **Advanced Join Operations:** Implementing complex multi-key joins, fuzzy matching for imperfect keys, or rolling joins for time-series data
+* **Data Reconciliation:** Building automated validation checks to ensure data consistency post-integration
+* **Entity Resolution:** Using machine learning techniques to match records across datasets without exact keys
+* **Schema Evolution:** Handling changes in data structure over time with dynamic schema mapping
+* **Performance Optimization:** Implementing efficient chunking strategies for large dataset integration

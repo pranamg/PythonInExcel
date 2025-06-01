@@ -163,4 +163,4 @@ Here are some advanced risk analysis techniques you could explore:
    - Implement regime-switching models
    - Create time-varying correlation analysis
 
-The next topic in the series is [Financial Analysis - Monte Carlo Simulations](./01-Financial%20Analysis_05-Monte%20Carlo%20Simulations.md), which explores using simulation techniques for financial projections using `numpy`.
+This analysis provides a foundation for understanding portfolio risk using VaR. The next major category in the series is [**Business Intelligence - Sales Analytics**](./02-Business%20Intelligence_01-Sales%20Analytics.md), which covers essential techniques for analyzing sales data and identifying trends.

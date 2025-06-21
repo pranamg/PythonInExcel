@@ -9,9 +9,17 @@ Before diving into the use cases, ensure your Python environment is properly con
 1. Open Excel and enter this command in a new cell to check available libraries:
    ```python
    =PY(
-   import sys
-   import subprocess
-   subprocess.run([sys.executable, "-m", "pip", "list"], capture_output=True, text=True).stdout
+        import sys
+        import subprocess
+        import pandas as pd
+        # Run pip list command and capture the output
+        result = subprocess.run([sys.executable, "-m", "pip", "list"], capture_output=True, text=True).stdout
+        # Split the output into lines and skip the header lines
+        lines = result.strip().split('\n')[2:]
+        # Parse each line into package name and version
+        packages = [line.split() for line in lines]
+        # Create a DataFrame with two columns: Package and Version
+        df = pd.DataFrame(packages, columns=["Package", "Version"])
    )
    ```
 2. Execute with Ctrl+Enter

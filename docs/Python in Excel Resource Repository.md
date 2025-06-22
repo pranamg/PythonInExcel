@@ -221,7 +221,6 @@ Curated collection of 18 public repositories related to Python-Excel integration
 This comprehensive repository provides over 40 high-quality resources specifically focused on Microsoft's official Python in Excel integration, offering tutorials, courses, documentation, and practical examples for users at all skill levels. The resources span from beginner introductions to advanced machine learning implementations, all utilizing the native Python in Excel functionality without relying on third-party libraries.
 
 ## References
-
 [^1]: https://www.youtube.com/watch?v=_LNI74qeC_E
 [^2]: https://www.youtube.com/watch?v=FicDbWkofnI
 [^3]: https://www.youtube.com/watch?v=GMF1E0dmjWs

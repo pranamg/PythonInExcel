@@ -1,0 +1,20 @@
+{
+    "converter": {
+        "default_kernel": "python3",
+        "code_cell_metadata": {
+            "tags": []
+        },
+        "markdown_cell_metadata": {
+            "tags": []
+        },
+        "logging": {
+            "level": "INFO",
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        }
+    },
+    "paths": {
+        "docs_dir": "docs",
+        "notebooks_dir": "notebooks",
+        "markdown_pattern": "**/*.md"
+    }
+}

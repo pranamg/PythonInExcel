@@ -28,7 +28,6 @@ debugpy==1.6.7
 decorator==5.1.1
 defusedxml==0.7.1
 et-xmlfile==1.1.0
-excel==0.0.1
 executing==0.8.3
 Faker==25.8.0
 fastjsonschema==2.16.2
@@ -84,7 +83,6 @@ notebook_shim==0.2.3
 numba==0.59.1
 numexpr==2.8.7
 numpy==1.26.4
-officepyai==0.0.1
 openpyxl==3.1.2
 overrides==7.4.0
 packaging==23.2
